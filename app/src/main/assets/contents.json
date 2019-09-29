@@ -1,0 +1,136 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "Criteria",
+      "publisher": "Emoticonas",
+      "tray_image_file": "ic_iconcriteria.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"info@emoticonas.top",
+      "publisher_website": "https://emoticonas.top",
+      "privacy_policy_website": "https://emoticonas.top/politicas-de-privacidad/",
+      "license_agreement_website": "https://emoticonas.top/politicas-de-privacidad/",
+      "stickers": [
+        {
+          "image_file": "acoso.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "armonia.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "atraso.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "bullyng.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "carcel.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "censura.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "comun.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "diferent.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "educa.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "equidad.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "genial.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "hiere.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "idea.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "igualdad.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "impact.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "injust.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "just.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "liante.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "libertad.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "oullea.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "payaso.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "peligros.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "privileg.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "protect.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "recort.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "secta.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "sos.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "vota.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "wau.webp",
+          "emojis": ["🔋","😵"]
+        }
+      ]
+    }
+  ]
+}

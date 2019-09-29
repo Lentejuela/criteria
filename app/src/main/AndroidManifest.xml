@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.criteria.stickerapp">
+
+    <application
+        android:name="com.criteria.stickerapp.StickerApplication"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!-- Activity 1 -->
+
+        <activity android:name="com.criteria.stickerapp.EntryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity 2 -->
+
+        <activity android:name="com.criteria.stickerapp.StickerPackListActivity" />
+        <activity
+            android:name="com.criteria.stickerapp.StickerPackDetailsActivity"
+            android:parentActivityName="com.criteria.stickerapp.StickerPackListActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.criteria.stickerapp.StickerPackListActivity" />
+        </activity>
+
+        <!-- Activity 3 -->
+
+        <activity
+            android:name="com.criteria.stickerapp.StickerPackInfoActivity"
+            android:label="@string/title_activity_sticker_pack_info"
+            android:parentActivityName="com.criteria.stickerapp.StickerPackDetailsActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.criteria.stickerapp.StickerPackDetailsActivity" />
+        </activity>
+
+        <provider
+            android:name="com.criteria.stickerapp.StickerContentProvider"
+            android:authorities="${contentProviderAuthority}"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.whatsapp.sticker.READ" />
+
+        <!-- A continuacion - Sample AdMob App ID: ca-app-pub-16 numeros~10 numeros
+          <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>-->
+
+    </application>
+</manifest>
